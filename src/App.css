@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 2rem;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.counter-display {
+  font-size: 4rem;
+  font-weight: bold;
+  background: #61dafb;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 60px;
+  margin-bottom: 2rem;
+  color: #282c34;
+  min-width: 120px;
+}
+
+.button-group button {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.button-group button:hover:not(:disabled) {
+  background-color: #21a0f0;
+  transform: scale(1.05);
+}
+
+.button-group button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.info {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
